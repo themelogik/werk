@@ -1,1 +1,6 @@
 box: wercker/php@0.9.3
+build:
+  steps:
+    - script:
+        name: Serve application for integration tests
+        code: php -S localhost:8000 >> /dev/null &
