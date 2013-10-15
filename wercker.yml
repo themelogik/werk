@@ -1,1 +1,1 @@
-box: wercker/default
+box: wercker/php@0.9.3
